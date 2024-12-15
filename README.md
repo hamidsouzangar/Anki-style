@@ -1,6 +1,7 @@
 # Anki-style
 Add color to anki by this template 
 
+![image](https://github.com/user-attachments/assets/71218927-add8-43bb-9edd-be1c6afd00db)
 
 # Anki Card Styling
 
@@ -22,31 +23,8 @@ The CSS styles in this  repository include:
 - **Mobile View**:      Adjustments for better display on mobile devices.
 - **Special Elements**: Styles for categories, blanked words, underlined text, and more.
 
-## Example Styles
+![image](https://github.com/user-attachments/assets/c7bcb82f-a132-42c5-a5ad-3030edf36fd4)
 
-```css
-.card {
-    font: 1.5em/1.5 sans-serif;
-    text-align: center;
-    background-image: url("_10.png");
-    background-position: center top;
-}
-
-.mobile .card {
-    margin: 15px 15px 50px 15px;
-}
-
-#encl {
-    padding: 35px 20px 24px 20px;
-    background-color: #fff;
-    border-radius: 16px;
-    overflow: hidden;
-    border-left: 5px solid #47c4f1;
-    border-bottom: 5px solid #A1A6BC;
-}
-
-/* Further styles... */
-```
 
 ## How to Use
 
