@@ -44,13 +44,9 @@ The CSS styles in this  repository include:
 `hr` : Sets the style for horizontal rules.
 ## How to Use
 
-1. Clone this repository:
-   ```sh
-   git clone https://github.com/yourusername/anki-card-styling.git
-   ```
 
-2. Copy the `style.css` file's content to Anki's card template edit.
-3. Apply the styles to your Anki cards by editing the card templates. 
+1. Copy the `style.css` file's content to Anki's card template edit.
+2. Apply the styles to your Anki cards by editing the card templates. 
 
 ## Customization
 
