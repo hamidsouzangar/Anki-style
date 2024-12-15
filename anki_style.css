@@ -1,0 +1,191 @@
+.card { font: 1.5em/1.5 sans-serif; text-align: center; }
+.card {background-image: url("_10.png");
+background-position: center top;
+}
+
+.mobile .card { margin: 15px 15px 50px 15px; }
+/*———————————
+NOTES: You can change the background colour from #CADEFA above to any colour you like, or alternatively add an image URL into the '3.png’ brackets to add a background image.
+———————————–*/
+#encl { padding: 35px 20px 24px 20px; background-color:#fff; border-radius:16px; overflow:hidden; border-left: 5px solid #47c4f1; border-bottom: 5px solid #A1A6BC }
+.mobile .encl { padding:15x; }
+#encl2 { padding: 28px 30px 10px 30px; background-color:#E8E8E8; border-radius:19px; overflow:hidden; border-left: 5px solid #47c4f1; border-bottom: 5px solid #A1A6BC }
+.mobile .encl { padding:15px; }
+#encl3 { padding: 05px 20px 10px 30px; background-color:#e1d1E1; border-radius:19px; overflow:hidden; border-left: 5px solid #47c4f1; border-bottom: 5px solid #A1A6BC }
+.mobile .encl { padding:15px; }
+#encl4 { padding: 28px 30px 10px 30px; background-color:#f8e8a8; border-radius:19px; overflow:hidden; border-left: 5px solid #47c4f1; border-bottom: 5px solid #A1A6BC }
+.mobile .encl { padding:15px; }
+
+#encl5 { padding: 15px 30px 10px 30px; background-color:black; border-radius:19px; overflow:hidden; border-left: 5px solid #47c4f1; border-bottom: 5px solid #A1A6BC }
+.mobile .encl { padding:15px; }
+/*———————————
+NOTES: You can change the colour of the two borders above (currrently left = blue and bottom = gray) by changing ’#47c4f1’ and ’#A1A6BC’. You can also change the background colour of your 'enclosures’ (the boxes in which your text sits).
+———————————–*/
+.category { font-family: Calibri; font-size: 18px; padding:3px 8px; border-radius:10px; font-weight: bold; }
+.blanked b { background:#CADEFA; color:#CADEFA; margin: 0 5px; padding:0 2px; border-radius: 10px; }
+.underline b { padding-left:60px; color:transparent; border-bottom: 3px solid #999; font-size:0px; }
+.pass b{ -webkit-text-security: disc; margin:0 8px; }
+.word { background:#BDE5F8; color:#00529B; font-family: Kozuka Gothic Pro B; font-size: 22px;  margin: 0 5px 0 -5px; border-radius:5px; font-weight: bold; line-height:10px; }
+b, .color { color: #0c6efa }
+.color { font-weight:bold; font-size:25px; }
+.mobile .color { font-weight:normal; font-family: Georgia; }
+
+.wordie {
+    background: #E1F1ec; /* Brighter shade of blue */
+    color: #00529B;
+    font-family: Arial, sans-serif; /* Easy-to-read font */
+    font-size: 20px;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    line-height: 30px;
+    text-align: left; /* Left align text */
+    font-weight: normal; /* Make content font thinner */
+    display: block; /* Ensure the box is applied to all content */
+  
+}
+
+.wordie::before {
+    content: "Meaning:";
+    font-weight: bold; /* Make the title bolder and thicker */
+    font-size: 23px;
+    display: block;
+    margin-bottom: 10px;
+    text-align: left; /* Ensure title is also left aligned */
+}
+
+
+
+
+
+
+
+
+
+
+
+.def { color: #bbb; } }
+b, .color2 { color: #FFFFFF }
+.color2 { font-weight:bold; font-size:60px; }
+.mobile .color { font-weight:normal; font-family: Georgia; }
+.sentence { font-size: 15px; color: #bbb !important; font-family: Calibri, Georgia; line-height:10px }
+.sentence-eng { font-size: 15px; color: #666666 !important; font-family: Calibri, Georgia; line-height:10px; font-style:italic; }
+.jlpt {font-size: 19px; color: white !important; font-family: Calibri, Georgia; line-height:10px; font-style: bold; background: #AAAAAA; border-radius: 50px 15px 50px 15px ; padding: 6px }
+ruby rt { font-size:22px; margin:-4px 0; font-weight:bold;}
+.mobile ruby rt { font-size:14px; }
+b ruby rt { opacity:0.5; }
+a:link { text-decoration: none; color: #9d9d9d !important; }
+hr { border:dashed 1px #eee; background-color:#fff; margin: 10px -15px; }
+.mobile hr { margin: 5px -13px; }
+
+.wordie1 { 
+	background:#f5f5ff; 
+	color:black; 
+    font-family: Arial, sans-serif; /* Easy-to-read font */
+    font-size: 20px;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    line-height: 30px;
+    text-align: left; /* Left align text */
+    font-weight: normal; /* Make content font thinner */
+    display: block; /* Ensure the box is applied to all content */
+  
+}
+.wordie1::before {
+    content: "Meaning:";
+    font-weight: bold; /* Make the title bolder and thicker */
+    font-size: 23px;
+    display: block;
+    margin-bottom: 10px;
+    text-align: left; /* Ensure title is also left aligned */
+}
+.wordie2 { 
+	background:#efffef; 
+	color:black; 
+    font-family: Arial, sans-serif; /* Easy-to-read font */
+    font-size: 20px;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    line-height: 30px;
+    text-align: left; /* Left align text */
+    font-weight: normal; /* Make content font thinner */
+    display: block; /* Ensure the box is applied to all content */
+  
+}
+
+.wordie2::before {
+    content: "Meaning:";
+    font-weight: bold; /* Make the title bolder and thicker */
+    font-size: 23px;
+    display: block;
+    margin-bottom: 10px;
+    text-align: left; /* Ensure title is also left aligned */
+}
+
+/*———————————
+
+.box {
+  border: 3px solid red;
+}
+.box2 {
+  border: 2px solid blue;
+}
+
+
+/* center #qa inside .card (the body)  */
+.card {
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #9bc2ba;
+  --text-fg: #575e6f;
+  --text-bg: rgba(255, 255, 255, .5);
+  --kard-bg: #ded1cc;
+}
+
+/* make #qa (child of .card) centerable */
+/* and left-aligned */
+#qa {
+  min-width: 100%;
+  display: inline-block;
+}
+
+.kard {
+  padding: 1.5rem 1rem;
+  background: var(--kard-bg);
+  box-shadow: rgba(0, 0, 0, 0.30) 0px 0px 25px 4px;
+  border-radius: 15px;
+}
+
+.textbox {
+  display: inline-block;
+  text-align: left;
+  color: var(--text-fg);
+  text-shadow: 0.1rem 0.1rem 0 var(--text-bg);
+}
+
+hr#answer {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  height: 0;
+  border-top: thin solid rgba(0, 0, 0, 0.2);
+  border-bottom: thin solid rgba(255, 255, 255, 0.3);
+}
+
+/* for landscape orientation */
+/* only use part of the available width */
+
+@media (min-width: 992px) {
+  #qa {
+    min-width: 60%;
+    max-width: 80%;
+  }
+}
+@media (min-width: 1366px) {
+  #qa {
+    min-width: 40%;
+    max-width: 66%;
+  }
+}
