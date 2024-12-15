@@ -25,7 +25,23 @@ The CSS styles in this  repository include:
 
 ![image](https://github.com/user-attachments/assets/c7bcb82f-a132-42c5-a5ad-3030edf36fd4)
 
+## a brief explanation of what your CSS does:
 
+`.card `: Sets the font size, centers the text, and applies a background image.
+
+` #encl`, `#encl2`, `#encl3`, `#encl4`, `#encl5`: Defines different sections with padding, background color, and border styles.
+
+`.category` : Styles text with a specific font, size, padding, and bold weight.
+
+`.blanked`, `.underline`, `.pass`, `.word` : Customizes text appearance for different purposes like blanked words, underlined text, etc.
+
+`.wordie`, `.wordie1`, `.wordie2` : Creates different styles for word explanations with padding, background colors, and text formatting.
+
+`.jlpt`, `ruby rt`: Formats specific content like JLPT level and ruby annotations.
+
+`.mobile` : Provides specific styling for mobile view, adjusting margins, padding, and font sizes.
+
+`hr` : Sets the style for horizontal rules.
 ## How to Use
 
 1. Clone this repository:
@@ -33,7 +49,7 @@ The CSS styles in this  repository include:
    git clone https://github.com/yourusername/anki-card-styling.git
    ```
 
-2. Copy the `style.css` file's content to your Anki collection media folder.
+2. Copy the `style.css` file's content to Anki's card template edit.
 3. Apply the styles to your Anki cards by editing the card templates. 
 
 ## Customization
